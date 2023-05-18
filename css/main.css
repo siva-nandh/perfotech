@@ -95,7 +95,7 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
+.home-contact-class{display: none;}
 a:hover,
 a:focus,
 a:active {
@@ -206,14 +206,16 @@ p.lead {
   p.lead {
     font-size: 2.1rem;
   }
-
+.home-contact-class{
+  display: none;
+}
 }
 
 @media only screen and (max-width:800px) {
   p.lead {
     font-size: 2rem;
   }
-
+  
 }
 
 em,
@@ -541,6 +543,8 @@ form,
 .oldie #preloader {
   display: none;
 }
+
+
 
 #loader {
   position: absolute;
@@ -1427,6 +1431,9 @@ color: #000000;
 .yellowhead{
   color: #f9ba17;
 }
+
+
+
 .display-1 {
 
   font-family: "Montserrat", sans-serif;
@@ -1981,6 +1988,14 @@ color: #000000;
 }
 
 @media only screen and (max-width:900px) {
+  .home-contact-class{
+    display: block;
+    width: 100vw;
+ 
+    bottom: 0;
+    text-align: center;
+  align-items: center;
+  }
   .header-nav h3 {
     padding-right: 0;
   }
@@ -2784,7 +2799,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 10rem;
+  padding-top: 5rem;
   /* padding-bottom: 4rem; */
   background-color: #ffffff;
   position: relative;
@@ -2859,7 +2874,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1000px) {
   .s-about {
-    padding-top: 15rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
@@ -2872,7 +2887,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-about {
-    padding-top: 12rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
